@@ -32,12 +32,12 @@
 }
 .frame-icon14,
 .frame-icon15,
-.frame72 {
+.frame66 {
   position: absolute;
   left: 0;
   overflow: hidden;
 }
-.frame72 {
+.frame66 {
   top: 1270px;
   background-color: var(--color-gray-200);
   width: 1873px;
@@ -64,18 +64,18 @@
   transform-origin: 0 0;
 }
 .frame-icon16,
-.frame73 {
+.frame67 {
   position: absolute;
   left: 0;
   overflow: hidden;
 }
-.frame73 {
+.frame67 {
   top: 574px;
   width: 1775px;
   height: 2384.4px;
   opacity: 1;
 }
-.frame73.animate {
+.frame67.animate {
   animation: 1s ease 0s 1 normal forwards flip-horizontal-bottom;
 }
 .frame-icon16 {
@@ -122,12 +122,12 @@
   transform: rotate(12.1deg);
   transform-origin: 0 0;
 }
-.frame71,
-.frame74 {
+.frame65,
+.frame68 {
   position: absolute;
   overflow: hidden;
 }
-.frame74 {
+.frame68 {
   top: 1147px;
   left: 0;
   width: 711.5px;
@@ -136,57 +136,38 @@
   font-size: var(--font-size-45xl);
   color: #560000;
 }
-.frame74.animate {
+.frame68.animate {
   animation: 1s ease 0s 1 normal forwards scale-down-center;
 }
-.frame71 {
+.frame65 {
   top: 0;
   left: -5px;
   width: 1886px;
   height: 2990px;
 }
-.item-link21,
-.item-link22,
-.item-link23,
-.item-link24 {
-  position: absolute;
-  top: 28px;
-  left: calc(50% - 502.4px);
+.home9,
+.what-is-the9 {
+  flex: 1;
+  position: relative;
   line-height: 13px;
   font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34.1px;
-  height: 13px;
-  transform: rotate(180deg);
-  transform-origin: 0 0;
+  transform: rotate(-180deg);
   cursor: pointer;
 }
-.item-link22,
-.item-link23,
-.item-link24 {
-  left: calc(50% + 328.6px);
-  width: 98.3px;
+.what-is-the9 {
+  transform: rotate(180deg);
 }
-.item-link23,
-.item-link24 {
-  left: calc(50% + 46.2px);
-  width: 79.7px;
-  transform: rotate(-180deg);
-}
-.item-link24 {
-  top: 24px;
-  left: calc(50% - 169.5px);
-  width: 145px;
-  height: 11px;
-}
-.container14 {
+.home-parent6 {
   position: absolute;
-  top: 82px;
-  left: 76px;
-  width: 1815px;
-  height: 38px;
+  top: 90px;
+  left: calc(50% - 644.5px);
+  width: 1295px;
+  height: 31px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-136xl);
   font-size: var(--font-size-smi-8);
   color: var(--color-white);
 }

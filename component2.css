@@ -51,12 +51,12 @@
   height: 135px;
 }
 .frame-icon2,
-.frame15 {
+.frame14 {
   position: absolute;
   top: 0;
   overflow: hidden;
 }
-.frame15 {
+.frame14 {
   left: -5px;
   width: 1879px;
   height: 1290px;
@@ -70,7 +70,7 @@
 .frame-icon3,
 .frame-icon4,
 .frame-icon5,
-.frame18 {
+.frame17 {
   position: absolute;
   top: 39px;
   left: 0;
@@ -80,18 +80,18 @@
 }
 .frame-icon4,
 .frame-icon5,
-.frame18 {
+.frame17 {
   top: 70px;
   width: 1895px;
   height: 1469px;
 }
 .frame-icon5,
-.frame18 {
+.frame17 {
   top: 105px;
   width: 1880px;
   height: 1434px;
 }
-.frame18 {
+.frame17 {
   top: 1422px;
   background-color: var(--color-white);
   width: 1895px;
@@ -106,7 +106,7 @@
   height: 544px;
   flex-shrink: 0;
 }
-.frame19 {
+.frame18 {
   position: absolute;
   top: 474px;
   left: 0;
@@ -128,7 +128,7 @@
   height: 135px;
   flex-shrink: 0;
 }
-.frame20 {
+.frame19 {
   position: absolute;
   top: 299px;
   left: 0;
@@ -153,7 +153,7 @@
   line-height: 25px;
   font-weight: 500;
 }
-.frame21 {
+.frame20 {
   position: absolute;
   top: 1441px;
   left: calc(50% - 958.5px);
@@ -168,14 +168,14 @@
   text-align: center;
   font-size: var(--font-size-base-8);
 }
-.frame17 {
+.frame16 {
   align-self: stretch;
   position: relative;
   height: 1539px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.frame16 {
+.frame15 {
   position: absolute;
   top: 1449px;
   left: -5px;
@@ -187,20 +187,20 @@
   justify-content: center;
   color: var(--color-black);
 }
-.home2,
+.home3,
 .join-us11 {
   position: relative;
   line-height: 13px;
   font-weight: 500;
 }
-.home2 {
+.home3 {
   flex: 1;
   cursor: pointer;
 }
 .join-us11 {
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.7);
 }
-.home-container,
+.frame-div,
 .join-us-frame {
   display: flex;
   align-items: center;
@@ -214,7 +214,7 @@
   flex-direction: column;
   cursor: pointer;
 }
-.home-container {
+.frame-div {
   position: absolute;
   top: 79px;
   left: calc(50% - 738.5px);

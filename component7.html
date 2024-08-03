@@ -25,7 +25,7 @@
         src="./public/image-pq7upya-1721757405044-raw@2x.png"
       />
 
-      <div class="container9">
+      <div class="container7">
         <div class="link13">
           <img
             class="flag-cornerstone-ball-cob-rtc-icon1"
@@ -34,7 +34,7 @@
           />
         </div>
       </div>
-      <div class="container10">
+      <div class="container8">
         <div class="link13">
           <img
             class="flag-cornerstone-ball-cob-rtc-icon1"
@@ -49,7 +49,7 @@
           />
         </div>
       </div>
-      <div class="container11">
+      <div class="container9">
         <div class="link13">
           <img
             class="flag-cornerstone-ball-cob-rtc-icon1"
@@ -119,12 +119,12 @@
           </p>
         </span>
       </div>
-      <div class="home-parent2">
-        <div class="home5" id="homeText">home</div>
-        <div class="home5" id="whatIsThe">what is the community?</div>
-        <div class="home5" id="howWeHelp">how we help</div>
-        <div class="home5" id="booksServices">books & services</div>
-        <div class="join-us-wrapper3">
+      <div class="home-parent4">
+        <div class="home7" id="homeText">home</div>
+        <div class="home7" id="whatIsThe">what is the community?</div>
+        <div class="home7" id="howWeHelp">how we help</div>
+        <div class="home7" id="booksServices">books & services</div>
+        <div class="join-us-wrapper3" id="frameContainer">
           <div class="join-us14">join us</div>
         </div>
       </div>
@@ -156,6 +156,13 @@
       if (booksServices) {
         booksServices.addEventListener("click", function (e) {
           window.location.href = "./component2.html";
+        });
+      }
+
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./Component2.html";
         });
       }
     </script>

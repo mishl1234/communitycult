@@ -8,8 +8,8 @@
     transform: scale(0.5);
   }
 }
-.frame25,
-.frame27,
+.frame24,
+.frame26,
 .r-1-icon {
   align-self: stretch;
   position: relative;
@@ -17,7 +17,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.frame27,
+.frame26,
 .r-1-icon {
   height: 1298px;
 }
@@ -27,12 +27,12 @@
   object-fit: cover;
 }
 .frame-icon6,
-.frame29 {
+.frame28 {
   position: absolute;
   top: 0;
   overflow: hidden;
 }
-.frame29 {
+.frame28 {
   left: 0;
   width: 1878px;
   display: flex;
@@ -45,33 +45,33 @@
   width: 1873px;
   height: 1290px;
 }
-.frame24,
-.frame26,
-.frame28 {
+.frame23,
+.frame25,
+.frame27 {
   align-self: stretch;
   overflow: hidden;
 }
-.frame28 {
+.frame27 {
   position: relative;
   height: 1290px;
   flex-shrink: 0;
   margin-top: -1298px;
 }
-.frame24,
-.frame26 {
+.frame23,
+.frame25 {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 0 var(--padding-5xs);
 }
-.frame26 {
+.frame25 {
   height: 1290px;
   flex-shrink: 0;
   justify-content: flex-end;
   box-sizing: border-box;
   margin-top: -1290px;
 }
-.frame24 {
+.frame23 {
   justify-content: flex-start;
 }
 .frame-child3 {
@@ -89,7 +89,7 @@
   position: relative;
   line-height: 48px;
 }
-.frame31 {
+.frame30 {
   position: absolute;
   top: 913px;
   left: 1003px;
@@ -100,20 +100,20 @@
   align-items: center;
   justify-content: flex-end;
 }
-.frame32,
-.how-we-help4 {
+.frame31,
+.how-we-help5 {
   width: 990px;
   display: flex;
   align-items: center;
 }
-.how-we-help4 {
+.how-we-help5 {
   position: relative;
   line-height: 20.8px;
   font-weight: 800;
   height: 135px;
   flex-shrink: 0;
 }
-.frame32 {
+.frame31 {
   position: absolute;
   top: 0;
   left: 366px;
@@ -126,41 +126,41 @@
   color: var(--color-black);
   font-family: var(--font-jost);
 }
-.frame30 {
+.frame29 {
   align-self: stretch;
   height: 1298px;
   margin-top: -1298px;
 }
-.frame30,
-.frame34,
-.frame35 {
+.frame29,
+.frame33,
+.frame34 {
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
 }
-.frame34 {
+.frame33 {
   align-self: stretch;
   height: 1377px;
 }
-.frame35 {
+.frame34 {
   width: 1878px;
   height: 1158px;
   margin-top: -1290px;
 }
-.frame23,
-.frame33 {
+.frame22,
+.frame32 {
   align-self: stretch;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.frame33 {
+.frame32 {
   align-items: flex-end;
   padding: 0 0 var(--padding-5xs);
   margin-top: -1298px;
 }
-.frame23 {
+.frame22 {
   align-items: center;
 }
 .the-way-to-container3 {
@@ -193,8 +193,8 @@
 }
 .drug-free-world-wrapper:hover,
 .frame-child6:hover,
-.frame39:hover,
-.frame41:hover,
+.frame38:hover,
+.frame40:hover,
 .rectangle-group:hover,
 .rectangle-parent:hover,
 .the-way-to-happiness-wrapper:hover,
@@ -337,7 +337,7 @@
   width: 423px;
   height: 234px;
 }
-.frame36 {
+.frame35 {
   align-self: stretch;
   position: relative;
   height: 1014px;
@@ -347,7 +347,7 @@
   color: var(--color-white);
   font-family: var(--font-jost);
 }
-.frame22 {
+.frame21 {
   position: absolute;
   top: -7px;
   left: -5px;
@@ -360,20 +360,20 @@
   justify-content: flex-start;
   font-family: var(--font-open-sans);
 }
-.home3,
+.home4,
 .join-us12 {
   position: relative;
   line-height: 13px;
   font-weight: 500;
 }
-.home3 {
+.home4 {
   flex: 1;
   cursor: pointer;
 }
 .join-us12 {
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.7);
 }
-.frame-div,
+.home-parent1,
 .join-us-wrapper1 {
   display: flex;
   align-items: center;
@@ -387,7 +387,7 @@
   flex-direction: column;
   cursor: pointer;
 }
-.frame-div {
+.home-parent1 {
   position: absolute;
   top: 79px;
   left: calc(50% - 738.5px);
@@ -412,7 +412,7 @@
   width: 1816px;
   height: 77px;
 }
-.frame38 {
+.frame37 {
   position: absolute;
   top: 546px;
   left: 0;
@@ -458,10 +458,10 @@
   height: 219px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-.frame37,
+.frame36,
+.frame38,
 .frame39,
 .frame40,
-.frame41,
 .rectangle-container {
   position: absolute;
   top: 120px;
@@ -469,30 +469,30 @@
   width: 517px;
   height: 234px;
 }
-.frame37,
+.frame36,
+.frame38,
 .frame39,
-.frame40,
-.frame41 {
+.frame40 {
   top: 0;
   height: 354px;
   overflow: hidden;
 }
-.frame37,
-.frame39,
-.frame40 {
+.frame36,
+.frame38,
+.frame39 {
   left: 410px;
   width: 1125px;
 }
-.frame37,
-.frame39 {
+.frame36,
+.frame38 {
   left: 0;
   width: 1535px;
   font-size: var(--font-size-35xl);
   color: var(--color-white);
 }
-.frame37 {
-  top: 2323px;
-  left: -69px;
+.frame36 {
+  top: 2328px;
+  left: 23px;
   width: 1850px;
   height: 623px;
   font-size: var(--font-size-base-8);

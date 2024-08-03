@@ -43,7 +43,7 @@
   height: 266.1px;
   cursor: pointer;
 }
-.frame10 {
+.frame9 {
   width: 1625.4px;
   overflow: hidden;
   display: flex;
@@ -52,7 +52,7 @@
   justify-content: center;
   cursor: pointer;
 }
-.frame9,
+.frame8,
 .i-am-accepting {
   width: 2043px;
   flex-shrink: 0;
@@ -68,7 +68,7 @@
   justify-content: center;
   height: 29px;
 }
-.frame9 {
+.frame8 {
   height: 338px;
   overflow: hidden;
   flex-direction: column;
@@ -86,14 +86,14 @@
   line-height: 25px;
   font-weight: 500;
 }
-.frame11,
-.frame8 {
+.frame10,
+.frame7 {
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.frame11 {
+.frame10 {
   width: 1975px;
   height: 98px;
   flex-shrink: 0;
@@ -105,7 +105,7 @@
   font-size: var(--font-size-base-8);
   color: var(--color-black);
 }
-.frame8 {
+.frame7 {
   position: absolute;
   top: 2401px;
   left: -85px;
@@ -115,20 +115,20 @@
   gap: 151px;
   font-size: var(--font-size-46xl);
 }
-.home,
+.home1,
 .join-us1 {
   position: relative;
   line-height: 13px;
   font-weight: 500;
 }
-.home {
+.home1 {
   flex: 1;
   cursor: pointer;
 }
 .join-us1 {
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.7);
 }
-.home-parent,
+.home-group,
 .join-us-wrapper {
   display: flex;
   align-items: center;
@@ -141,7 +141,7 @@
   height: 32px;
   flex-direction: column;
 }
-.home-parent {
+.home-group {
   position: absolute;
   top: 79px;
   left: calc(50% - 738.5px);
@@ -149,7 +149,7 @@
   flex-direction: row;
   gap: var(--gap-136xl);
 }
-.frame12,
+.frame11,
 .step-into-our {
   position: absolute;
   height: 632px;
@@ -164,7 +164,7 @@
   justify-content: center;
   width: 703px;
 }
-.frame12 {
+.frame11 {
   top: 1573px;
   left: -85px;
   width: 1355px;
@@ -187,7 +187,7 @@
   width: 1878px;
   height: 128px;
 }
-.container7,
+.container6,
 .rectangle-icon {
   position: absolute;
   top: 81px;
@@ -262,8 +262,8 @@
 .join-us9 {
   top: 1262px;
 }
-.frame13,
-.frame14 {
+.frame12,
+.frame13 {
   position: absolute;
   top: 0;
   left: 80px;
@@ -271,7 +271,7 @@
   height: 1443px;
   overflow: hidden;
 }
-.frame13 {
+.frame12 {
   left: -85px;
   width: 1959px;
   font-size: var(--font-size-200xl);

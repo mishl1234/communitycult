@@ -27,14 +27,6 @@
       <img class="item" alt="" src="./public/rectangle-22.svg" />
 
       <div class="frame1">
-        <div class="container6">
-          <div class="item-link5" id="itemLink">Home</div>
-          <div class="item-link6" id="itemLink1">Books & Services</div>
-          <div class="item-link7" id="itemLink2">How We Help</div>
-          <div class="item-link8" id="itemLink3">What is the community?</div>
-        </div>
-      </div>
-      <div class="frame2">
         <div class="thalzor-nethul-erzalith-container">
           <span class="thalzor-nethul-erzalith-container1">
             <p class="thalzor-nethul">Thal’Zor Nethul</p>
@@ -59,7 +51,7 @@
           </span>
         </div>
       </div>
-      <div class="frame3">
+      <div class="frame2">
         <div class="thalzor-nethul-erzalith-container2">
           <span class="thalzor-nethul-erzalith-container1">
             <p class="thalzor-nethul">Thal’Zor Nethul</p>
@@ -84,7 +76,7 @@
           </span>
         </div>
       </div>
-      <div class="frame4">
+      <div class="frame3">
         <div class="thalzor-nethul-erzalith-container4">
           <span class="thalzor-nethul-erzalith-container1">
             <p class="thalzor-nethul">Thal’Zor Nethul</p>
@@ -109,7 +101,7 @@
           </span>
         </div>
       </div>
-      <div class="frame5">
+      <div class="frame4">
         <div class="thalzor-nethul-erzalith-container6">
           <span class="thalzor-nethul-erzalith-container1">
             <p class="thalzor-nethul">Thal’Zor Nethul</p>
@@ -135,7 +127,7 @@
         </div>
         <div class="istockphoto-1030998560-640-adp"></div>
       </div>
-      <div class="frame6">
+      <div class="frame5">
         <div class="thalzor-nethul-erzalith-container8">
           <span class="thalzor-nethul-erzalith-container1">
             <p class="thalzor-nethul">Thal’Zor Nethul</p>
@@ -160,41 +152,47 @@
           </span>
         </div>
       </div>
-      <div class="frame7">
+      <div class="frame6">
         <img
           class="openart-image-yv7fe8ie-1722125-icon"
           alt=""
           src="./public/openartimage-yv7fe8ie-1722125992486-raw@2x.png"
         />
       </div>
+      <div class="home-parent">
+        <div class="home" id="homeText">home</div>
+        <div class="what-is-the" id="whatIsThe">what is the community?</div>
+        <div class="what-is-the" id="howWeHelp">how we help</div>
+        <div class="what-is-the" id="booksServices">books & services</div>
+      </div>
     </div>
 
     <script>
-      var itemLink = document.getElementById("itemLink");
-      if (itemLink) {
-        itemLink.addEventListener("click", function (e) {
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
           window.location.href = "./component6.html";
         });
       }
 
-      var itemLink1 = document.getElementById("itemLink1");
-      if (itemLink1) {
-        itemLink1.addEventListener("click", function (e) {
-          window.location.href = "./component5.html";
+      var whatIsThe = document.getElementById("whatIsThe");
+      if (whatIsThe) {
+        whatIsThe.addEventListener("click", function (e) {
+          window.location.href = "./component8.html";
         });
       }
 
-      var itemLink2 = document.getElementById("itemLink2");
-      if (itemLink2) {
-        itemLink2.addEventListener("click", function (e) {
+      var howWeHelp = document.getElementById("howWeHelp");
+      if (howWeHelp) {
+        howWeHelp.addEventListener("click", function (e) {
           window.location.href = "component4.html";
         });
       }
 
-      var itemLink3 = document.getElementById("itemLink3");
-      if (itemLink3) {
-        itemLink3.addEventListener("click", function (e) {
-          window.location.href = "./component8.html";
+      var booksServices = document.getElementById("booksServices");
+      if (booksServices) {
+        booksServices.addEventListener("click", function (e) {
+          window.location.href = "./component5.html";
         });
       }
     </script>

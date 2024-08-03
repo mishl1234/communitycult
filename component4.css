@@ -40,64 +40,9 @@
   width: 1873px;
   height: 128px;
 }
-.item-link5,
-.item-link6,
-.item-link7,
-.item-link8 {
-  position: absolute;
-  top: 28px;
-  left: calc(50% - 502.4px);
-  line-height: 13px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34.1px;
-  height: 13px;
-  transform: rotate(180deg);
-  transform-origin: 0 0;
-  cursor: pointer;
-}
-.item-link6,
-.item-link7,
-.item-link8 {
-  left: calc(50% + 328.6px);
-  width: 98.3px;
-}
-.item-link7,
-.item-link8 {
-  left: calc(50% + 46.2px);
-  width: 79.7px;
-  transform: rotate(-180deg);
-}
-.item-link8 {
-  top: 24px;
-  left: calc(50% - 169.5px);
-  width: 145px;
-  height: 11px;
-}
-.container6 {
-  position: absolute;
-  top: 0;
-  left: 82px;
-  width: 1815px;
-  height: 38px;
-}
-.frame1,
-.thalzor-nethul {
-  font-size: var(--font-size-smi-8);
-}
-.frame1 {
-  position: absolute;
-  top: 81px;
-  left: -8px;
-  width: 1889px;
-  height: 38px;
-  overflow: hidden;
-  color: var(--color-white);
-}
 .thalzor-nethul {
   margin: 0;
+  font-size: var(--font-size-smi-8);
 }
 .erzalith-morthan-vexnath {
   margin: 0;
@@ -117,7 +62,7 @@
   width: 1302px;
   height: 1100px;
 }
-.frame2 {
+.frame1 {
   position: absolute;
   top: 524px;
   left: -8px;
@@ -138,7 +83,7 @@
   width: 1302px;
   height: 1100px;
 }
-.frame3 {
+.frame2 {
   position: absolute;
   top: 611px;
   left: -203px;
@@ -159,7 +104,7 @@
   width: 1302px;
   height: 1100px;
 }
-.frame4 {
+.frame3 {
   position: absolute;
   top: 1237px;
   left: 66px;
@@ -181,7 +126,7 @@
   transform: rotate(180deg);
   transform-origin: 0 0;
 }
-.frame5,
+.frame4,
 .istockphoto-1030998560-640-adp {
   position: absolute;
   top: 212px;
@@ -189,7 +134,7 @@
   width: 640px;
   height: 360px;
 }
-.frame5 {
+.frame4 {
   top: 992px;
   left: 131px;
   width: 1754px;
@@ -210,7 +155,7 @@
   transform: rotate(180deg);
   transform-origin: 0 0;
 }
-.frame6 {
+.frame5 {
   position: absolute;
   top: 1883px;
   left: 0;
@@ -226,13 +171,39 @@
   height: 545px;
   object-fit: cover;
 }
-.frame7 {
+.frame6 {
   position: absolute;
   top: 2160px;
   left: -8px;
   width: 1215px;
   height: 545px;
   overflow: hidden;
+}
+.home,
+.what-is-the {
+  flex: 1;
+  position: relative;
+  line-height: 13px;
+  font-weight: 500;
+  transform: rotate(-180deg);
+  cursor: pointer;
+}
+.what-is-the {
+  transform: rotate(180deg);
+}
+.home-parent {
+  position: absolute;
+  top: 90px;
+  left: calc(50% - 647.5px);
+  width: 1295px;
+  height: 31px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-136xl);
+  font-size: var(--font-size-smi-8);
+  color: var(--color-white);
 }
 .div1 {
   width: 100%;

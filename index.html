@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="div5">
-      <div class="frame42">
+      <div class="frame41">
         <img class="r-1-icon1" alt="" src="./public/r-1@2x.png" />
 
         <div class="join-us-now-wrapper" id="frameContainer">
@@ -114,11 +114,11 @@
           </p>
         </span>
       </div>
-      <div class="home-parent1">
-        <div class="home4" id="homeText">home</div>
-        <div class="home4" id="whatIsThe">what is the community?</div>
-        <div class="home4" id="howWeHelp">how we help</div>
-        <div class="home4" id="booksServices">books & services</div>
+      <div class="home-parent2" id="frameContainer1">
+        <div class="home5" id="homeText">home</div>
+        <div class="home5" id="whatIsThe">what is the community?</div>
+        <div class="home5" id="howWeHelp">how we help</div>
+        <div class="home5" id="booksServices">books & services</div>
         <div class="join-us-wrapper2">
           <div class="join-us13">join us</div>
         </div>
@@ -158,6 +158,13 @@
       if (booksServices) {
         booksServices.addEventListener("click", function (e) {
           window.location.href = "./component2.html";
+        });
+      }
+
+      var frameContainer1 = document.getElementById("frameContainer1");
+      if (frameContainer1) {
+        frameContainer1.addEventListener("click", function (e) {
+          window.location.href = "./Component2.html";
         });
       }
     </script>
